@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento:400,700');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700');
+
+.exhibition-info-container {
+    position: relative;
+    border: solid 2px black;
+    width: 25%;
+    margin: 20px 20px;
+    text-align: center;
+    /* font-family: 'Cabin Condensed', sans-serif; */
+    font-family: 'Quattrocento', serif;
+    /* font-family: 'Istok Web', sans-serif; */
+    background: antiquewhite;
+    padding: 5px;
+}
+
+.opening-reception {
+    position: absolute;
+    right: 0;
+    padding-right: 5px;
+}
+
+.gallery-name {
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.gallery-name:hover {
+    text-decoration: underline;
+}
+
+.artist-name {
+    font-size: 18px;
+    margin: 0;
+}
+
+

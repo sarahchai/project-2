@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css?family=Coustard:400,900');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:400,700');
+
+* {
+    box-sizing: border-box;
+}
+
+
+.exhibition-details-page {
+    margin-top: 30px;
+    /* font-family: 'Coustard', serif; */
+    font-family: 'Hind Madurai', sans-serif;
+    margin-bottom: 20px;
+}
+
+.goback-button {
+    margin-left: 200px;
+    cursor: pointer;
+    color: #22453d;
+    background: white;
+    border: 2px solid #22453d;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.goback-button:hover {
+    background: antiquewhite
+}
+
+.details-container {
+    border: 5px solid black;
+    margin: 20px 180px;
+    background: #122932;
+    color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+.gallery {
+    /* margin-left: 20px; */
+    margin: 20px 0 0 20px;
+}
+
+.gallery.name {
+    font-size: 30px;
+}
+
+.exhibition.link {
+    display: block;
+    cursor: pointer; 
+    padding: 0;
+    color: rgb(189, 182, 172);
+}
+
+.exhibition.link:hover {
+    color: white;
+}
+
+.exhibition {
+    margin: 20px 20px 0 0;
+    text-align: right;
+}
+
+.exhibition.title {
+    font-size: 20px;
+}
+
+.exhibition.artist {
+    font-size: 20px;
+}
+
+.wiki-data {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.wiki-text {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.wiki-link {
+    display: block;
+    margin-top: 10px;
+    color: rgb(189, 182, 172);
+}
+
+.wiki-link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.artsy-data {
+    color: #122932;
+}
+
+.artwork-container {
+    text-align: center;
+}
+
+.heading {
+    font-size: 35px;
+}
+
+.artwork {
+    display: flex;
+    justify-content: center;
+    margin: 20px 350px;
+    background: antiquewhite;
+    padding: 20px;
+}
+
+.artwork-text{
+    width: 300px;
+    margin-left: 15px; 
+}
+
+.show-container {
+    text-align: center;
+}
+
+.show {
+    margin: 20px 420px;
+    background: antiquewhite;
+    padding: 20px;
+}
+
+.show-link:hover {
+    cursor: pointer;
+    color: #122932;
+}

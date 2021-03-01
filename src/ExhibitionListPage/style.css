@@ -1,0 +1,53 @@
+.exhibition-list-page {
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 0 250px;
+    margin-top: 30px;
+}
+
+.date-button-containder {
+    display: flex;
+}
+
+.clear-button {
+    margin-left: 5px;
+    cursor: pointer;
+    color: #22453d;
+    background: white;
+    border: 1px solid #22453d;
+    font-size: 15px;
+    border-radius: 5em;
+    font-weight: 500;
+}
+
+.clear-button:hover {
+    cursor: pointer;
+    background: rgb(249, 243, 237);
+}
+
+.notice {
+    text-align: left;
+    margin: 0;
+    margin-left: 75%;
+    padding: 0;
+    color: #122932;
+}
+
+.view-all-buttton {
+    color: #22453d;
+    background: white;
+    border: 1px solid #22453d;
+    font-size: 15px;
+    border-radius: 5em;
+    font-weight: 500;
+}
+
+.view-all-buttton:hover {
+    cursor: pointer;
+    background: rgb(249, 243, 237);
+}
